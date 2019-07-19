@@ -1,25 +1,10 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[3~[3~[3~[3~[3~[3~[[C[C[D[D[D[D[D[D[D[D[D[D[D[D[D[D[ipipeline{
+pipeline{
      agent any
-     stages[D[D[C[C{
+     stages{
          stage("build"){
              steps{
                  sh "mvn clean package"
-                 [D[D[D}
+                 }
           } 
       }
+}
